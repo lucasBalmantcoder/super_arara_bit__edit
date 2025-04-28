@@ -3,6 +3,7 @@
 
 
 // teste de commit
+//teste 
 
 //adiciona velocidade vertical
 vspeed = 0;
