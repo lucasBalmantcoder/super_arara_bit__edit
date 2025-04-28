@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"quart_in",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"quart_in",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"elastic_out",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"elastic_out",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

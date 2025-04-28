@@ -1,0 +1,13 @@
+# Arquivos temporários do GMS2
+.vscode/
+.idea/
+.gmx/
+.yyp/
+.project/
+
+# Outros arquivos não versionáveis
+*.log
+*.bak
+*.tmp
+*.swp
+
