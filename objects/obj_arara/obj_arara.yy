@@ -10,8 +10,8 @@
   "name":"obj_arara",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Character",
+    "path":"folders/Objects/Character.yy",
   },
   "parentObjectId":null,
   "persistent":false,

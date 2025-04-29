@@ -2,16 +2,11 @@
 // You can write your code in this editor
 
 
-// teste de commit
-//teste 
-
-//adiciona velocidade vertical
 vspeed = 0;
 
-global.player_x = x;  // Armazenar a posição x do personagem
-global.player_y = y;  // Armazenar a posição y do personagem
+player_x = obj_arara.x; 
+player_y = obj_arara.y;
 
-global.gravidade = false;
+gravidade = false;
 
-//temporizador para gravidade inicial
 alarm[0] = game_get_speed(gamespeed_fps) * 3;

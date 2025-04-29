@@ -24,7 +24,7 @@ draw_set_color(-1);
 //draw_set_font(-1); linha apagada, pois estava tirando o acento do (^) do a
 
 // o ajuste de tamanho da fonte está sendo feita em : font/fnt_arial : size
-if (global.debug_mode){
+if (global.dev_mode){
 	
 	
 
@@ -34,7 +34,7 @@ if (global.debug_mode){
 	draw_text((room_width/2) + 300, (room_height/2) + ajuste_y, "FPS: " + string(fps));
 	
 	draw_set_halign(fa_right){
-		draw_text((room_width/2) + ajuste_x, (room_height/2) + 200, "Y - travado: " + string(global.gravidade));
+
 	draw_text((room_width/2) + ajuste_x, (room_height/2) + 220, "Modulo de obstaculo: " + string(global.module_game));
 	}
 
@@ -58,10 +58,10 @@ if (global.debug_mode){
 	
 	draw_text((room_width/2) - ajuste_x, (room_height/2) + 160, "Total de instancias: " + string(global.cont_isntancia));
 	
-	draw_text((room_width/2) - ajuste_x, (room_height/2) + 200, "x - personagem: " + string(global.player_x));
+	draw_text((room_width/2) - ajuste_x, (room_height/2) + 200, "x - personagem: " + string(obj_arara.x));
 
 	// Exibindo o valor de global.player_y com o texto
-	draw_text((room_width/2) - ajuste_x, (room_height/2) + 180, "y - personagem: " + string(global.player_y));
+	draw_text((room_width/2) - ajuste_x, (room_height/2) + 180, "y - personagem: " + string(obj_arara.y));
 
 	// Exibindo a versão com o texto
 	draw_text((room_width/2) - ajuste_x, (room_height/2) + 220, "Version: " + string(global.versao));

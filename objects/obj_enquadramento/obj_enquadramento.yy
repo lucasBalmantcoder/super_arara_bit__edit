@@ -1,21 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_block_blue",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_enquadramento",
+  "eventList":[],
   "managed":true,
-  "name":"obj_block_blue",
+  "name":"obj_enquadramento",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":{
-    "name":"obj_block_red",
-    "path":"objects/obj_block_red/obj_block_red.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_block_blue",
-    "path":"sprites/spr_block_blue/spr_block_blue.yy",
+    "name":"spr_block_red",
+    "path":"sprites/spr_block_red/spr_block_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,

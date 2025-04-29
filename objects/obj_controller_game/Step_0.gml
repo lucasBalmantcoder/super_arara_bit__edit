@@ -12,10 +12,10 @@ global.pontos += 0.1 * global.level;
 
 // ativa o debug mode e desativa
 if (keyboard_check_pressed(ord("D"))){
-	if(global.debug_mode == false){
-		global.debug_mode = true;
+	if(global.dev_mode == false){
+		global.dev_mode = true;
 	}else{
-	global.debug_mode = false;	
+	global.dev_mode = false;	
 	}
 }
 
@@ -66,9 +66,6 @@ if(global.pontos > proximo_level){
 var background = layer_get_id("Background");
 layer_hspeed(background, -1 -global.level);
 
-//ajustando a velocidade do chao
-//var chao = layer_get_id("chao");
-//layer_hspeed(chao, -4 - global.level);
 
 //verificando se existe alguma instância ativa
 global.cont_isntancia = instance_number(obj_block_red);
@@ -76,16 +73,6 @@ global.cont_isntancia = instance_number(obj_block_red);
 if (instance_exists(obj_down)) {
     obj_up.y = obj_down.y - 640;  // Mantém a posição relativa entre os objetos
 
-    //// Controle do eixo Y
-    //if (keyboard_check(vk_up)) {
-    //    //obj_up.y -= 5;  // Move para cima
-    //    obj_down.y -= 5; // Move para cima junto
-    //}
-    
-    //if (keyboard_check(vk_down)) {
-    //    //obj_up.y += 5;  // Move para baixo
-    //    obj_down.y += 5; // Move para baixo junto
-    //}
 
     // Debug
     show_debug_message("Posição Y de obj_down: " + string(obj_down.y));

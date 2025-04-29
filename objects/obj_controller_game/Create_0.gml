@@ -5,7 +5,7 @@
 global.versao = "0.1.1 alpha";
 
 // var global de debug mode
-global.debug_mode = true;
+global.dev_mode = true;
 
 // var que conta as intancias de obj
 global.cont_isntancia = 0;
@@ -17,7 +17,7 @@ global.modegame2 = false;
 //var global
 global.module_game = 0;
 
-alarm[0] = room_speed;
+alarm[0] = game_get_speed(gamespeed_fps);
 
 global.pontos = 0;
 
